@@ -55,7 +55,7 @@ body {
 .row-songs {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    width: calc(100% - 180px)
 }
 
 .row {
@@ -92,8 +92,10 @@ body {
 }
 
 /* TABLET SMALL */
-@media screen and (max-width:767px) and (min-width:321px) {
-
+@media screen and (max-width:480px) {
+    .col-songs {
+        width: calc(100% / 2 - 20px);
+    }
 }
 
 /* MOBILE */
