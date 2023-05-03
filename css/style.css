@@ -46,7 +46,7 @@ body {
 .container {
     position: relative;
     left: 180px;
-    width: 100vw;
+    width: calc(100vw - 180px);
     background-color: orange;
     height: 520px;
     overflow-y: auto;
@@ -60,7 +60,7 @@ body {
 .row-songs {
     display: flex;
     flex-wrap: wrap;
-    width: calc(100% - 180px)
+    width: 100%;
 }
 
 .row {
@@ -70,6 +70,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .col-opt {
@@ -87,10 +88,25 @@ body {
     background-color: brown;
 }
 
-.barra {
+.row-bottom {
     background-color: yellowgreen;
-    height: 60px;
+    height: 62px;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-20 {
+    background-color: pink;
+    height: 20px;
+    width: calc(100% / 6);
+}
+
+.col-40 {
+    background-color: pink;
+    height: 20px;
+    width: calc(100% / 3);
 }
 
 
@@ -114,5 +130,10 @@ body {
         background-color: black;
         height: 580px;
         width: 50px;
+    }
+    .container {
+        width: calc(100% - 50px);
+        position: relative;
+        left: 50px;
     }
 }
