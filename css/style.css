@@ -9,7 +9,7 @@ body {
 }
 
 
-
+/* STRUTTURA */
 .row-side {
     position: relative;
 }
@@ -17,7 +17,7 @@ body {
 .col-500 {
     background-color: black;
     height: 640px;
-    width: 180px;
+    width: 200px;
     position: absolute;
     left: 0;
     top: 0;
@@ -45,8 +45,8 @@ body {
 
 .container {
     position: relative;
-    left: 180px;
-    width: calc(100vw - 180px);
+    left: 200px;
+    width: calc(100vw - 200px);
     background-color: orange;
     height: 520px;
     overflow-y: auto;
@@ -108,6 +108,80 @@ body {
     height: 20px;
     width: calc(100% / 3);
 }
+/* FINE STRUTTURA */
+.contenuto {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.simbol-grey {
+    width: 25px;
+    filter:invert(20%);
+}
+
+.simbol-grey:hover {
+    filter: none;
+}
+
+.txt-white {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+
+
+.txt-grey {
+    color: gray;
+    font-size: 12px;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+li:hover {
+    color: white;
+}
+
+.txt-bold {
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.plus {
+    color: gray;
+    font-size: 45px;
+}
+
+.txt-grey-big {
+    color: gray;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.txt-grey-big:hover {
+    color: white;
+}
+
+.txt-grey-small {
+    color:gray;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 500;
+    list-style: none;
+    font-weight: 500;
+}
+
+
 
 
 /* TABLET */
