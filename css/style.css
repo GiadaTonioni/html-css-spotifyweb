@@ -46,9 +46,7 @@ body {
 
 
 .content-top {
-    height: 30px;
-    width: 50px;
-    background-color: aqua;
+    margin-right: 20px;
 }
 
 .container {
@@ -241,6 +239,10 @@ li:hover {
 .row p {
     color: grey;
 }
+
+.row p:hover {
+    color: white;
+}
 /* FINE MAIN */
 
 /* PLAYER */
@@ -256,6 +258,10 @@ li:hover {
 .simbol-small {
     margin-left: 50px;
     color: grey;
+}
+
+.simbol-small:hover {
+    color: white;
 }
 
 .simbol-small span {
@@ -277,13 +283,61 @@ li:hover {
     font-size: 20px;
 }
 
+.simbol-center .play:hover {
+    font-size: 25px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+    color: white;
+}
+
 .volume {
     border: 2px solid grey;
     border-radius: 5px;
     margin: 10px 0;
 }
 
+/* .card img:hover {
+    filter: opacity(40%);
+    filter: brightness(30%);
+} */
 
+.card {
+    position: relative;
+}
+
+.overplay {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: white;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding-left: 60px;
+    padding-right: 52px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    opacity: 0.01;
+}
+
+.overplay:hover {
+    opacity: 1;
+}
+
+button {
+    margin-right: 25px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 50px 50px;
+    font-weight: 600;
+}
+
+.button:hover {
+    width: 50px;
+}
 
 /* TABLET */
 @media screen and (max-width: 768px) {
