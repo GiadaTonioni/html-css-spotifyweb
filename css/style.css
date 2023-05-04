@@ -302,7 +302,30 @@ li:hover {
 .volume {
     border: 2px solid grey;
     border-radius: 5px;
-    margin: 10px 0;
+    width: 110px;
+    margin-left: 10px;
+}
+
+.long {
+    width: 300px;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.volume-play {
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.volume-play:hover {
+    border: 1 px solid greenyellow;
+}
+
+.volume-up {
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    width: 30px;
 }
 
 .card {
@@ -338,10 +361,17 @@ button {
     font-weight: 600;
 }
 
+
 /* TABLET */
 @media screen and (max-width: 768px) {
     .col-songs {
         width: calc(100% / 4 - 20px);
+    }
+    .overplay:hover {
+        padding-left: 30px;
+        padding-right: 31px;
+        padding-top: 23px;
+        padding-bottom: 24px;
     }
 }
 
@@ -369,5 +399,13 @@ button {
     }
     .col-100 {
         width: calc(100vw - 50px);
+    }
+    .simbol-center span {
+        margin: 5px 8px;
+        color: white;
+        font-size: 15px;
+    }
+    .long {
+        width: 165px;
     }
 }
