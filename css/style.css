@@ -89,7 +89,7 @@ body {
 }
 
 .row-bottom {
-    background-color: yellowgreen;
+    background-color: rgb(75, 77, 73);
     height: 62px;
     width: 100%;
     position: fixed;
@@ -101,16 +101,18 @@ body {
 }
 
 .col-20 {
-    background-color: pink;
-    height: 20px;
     width: calc(100% / 6);
+    margin: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .col-40 {
-    background-color: pink;
-    height: 20px;
-    width: calc(100% / 3);
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
 }
+
 /* FINE STRUTTURA */
 
 /* SIDEBAR */
@@ -242,8 +244,44 @@ li:hover {
 /* FINE MAIN */
 
 /* PLAYER */
+.row-bottom img {
+    width: 15%;
+}
 
+.testo {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
 
+.simbol-small {
+    margin-left: 50px;
+    color: grey;
+}
+
+.simbol-small span {
+    margin-left: 10px;
+}
+
+.simbol-right span {
+    margin-left: 10px;
+    color: white;
+}
+
+.simbol-center span {
+    margin: 5px 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.simbol-center .play {
+    font-size: 20px;
+}
+
+.volume {
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 10px 0;
+}
 
 /* TABLET */
 @media screen and (max-width: 768px) {
