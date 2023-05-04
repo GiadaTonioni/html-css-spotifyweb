@@ -31,10 +31,14 @@ body {
 .col-100 {
     height: 60px;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.8);
+    
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.top-bar {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -90,7 +94,7 @@ body {
 .row-bottom {
     background-color: yellowgreen;
     height: 62px;
-    position: relative;
+    position: fixed;
     bottom: 0;
     left: 0;
     display: flex;
