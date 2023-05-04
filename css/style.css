@@ -73,18 +73,15 @@ body {
 }
 
 .row {
-    background-color: blue;
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
-.col-opt {
-    margin: 0 10px;
-}
+
 
 .col-songs {
     width: calc(100% / 6 - 20px);
@@ -209,13 +206,12 @@ li:hover {
     margin-bottom: 80px;
 }
 /* FINE SIDEBAR */
-/* ALTRE COSE IN MEZZO */
 
 /* MAIN */
 .title {
     color: white;
     font-size: 11px;
-    margin: 10px 10px;
+    margin: 15px 10px;
 }
 
 .row-songs img {
@@ -239,6 +235,14 @@ li:hover {
     font-size: 11px;
     text-align: center;
 }
+
+.row p {
+    color: grey;
+}
+/* FINE MAIN */
+
+/* PLAYER */
+
 
 
 /* TABLET */
@@ -269,5 +273,8 @@ li:hover {
     }
     .visible {
         display: none;
+    }
+    .col-100 {
+        width: calc(100vw - 50px);
     }
 }
