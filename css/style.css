@@ -131,6 +131,7 @@ body {
 
 .simbol-grey:hover {
     filter: none;
+    cursor: pointer;
 }
 
 .txt-white {
@@ -151,6 +152,7 @@ body {
 
 .txt-grey:hover {
     color: white;
+    cursor: pointer;
 }
 
 li:hover {
@@ -179,6 +181,7 @@ li:hover {
 
 .txt-grey-big:hover {
     color: white;
+    cursor: pointer;
 }
 
 .txt-grey-small {
@@ -242,6 +245,7 @@ li:hover {
 
 .row p:hover {
     color: white;
+    cursor: pointer;
 }
 /* FINE MAIN */
 
@@ -262,6 +266,7 @@ li:hover {
 
 .simbol-small:hover {
     color: white;
+    cursor: pointer;
 }
 
 .simbol-small span {
@@ -285,11 +290,13 @@ li:hover {
 
 .simbol-center .play:hover {
     font-size: 25px;
+    cursor: pointer;
 }
 
 .underline:hover {
     text-decoration: underline;
     color: white;
+    cursor: pointer;
 }
 
 .volume {
@@ -318,6 +325,7 @@ li:hover {
 
 .overplay:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 button {
@@ -328,10 +336,6 @@ button {
     padding: 10px 30px;
     border-radius: 50px 50px;
     font-weight: 600;
-}
-
-.button:hover {
-    width: 50px;
 }
 
 /* TABLET */
