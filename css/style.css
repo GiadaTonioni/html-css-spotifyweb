@@ -41,7 +41,7 @@ body {
     position: fixed;
     top: 0;
     right: 0;
-
+    z-index: 10;
 }
 
 
@@ -297,11 +297,6 @@ li:hover {
     border-radius: 5px;
     margin: 10px 0;
 }
-
-/* .card img:hover {
-    filter: opacity(40%);
-    filter: brightness(30%);
-} */
 
 .card {
     position: relative;
