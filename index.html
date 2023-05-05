@@ -19,14 +19,17 @@
             <div class="col-500">
                 <div class="contenuto">
                     <img src="./img/logo.svg" class="logo visible" alt="">
+                    <img src="./img/logo-small.svg" class="logosmall" alt="">
                     <ul>
                         <li class="txt-white"><img src="./img/home.svg" class="simbol-grey" alt="">  <span class="visible">Home</span></li>
                         <li class="txt-grey"><img src="./img/search.svg" class="simbol-grey" alt="">  <span class="visible">Cerca</span></li>
                         <li class="txt-grey"><img src="./img/libreria.svg" class="simbol-grey" alt="">  <span class="visible">La tua libreria</span></li>
                     </ul>
                     <p class="txt-bold visible">PLAYLIST</p>
-                    <ul class="visible scroll">
+                    <ul class="visible">
                         <li class="plus"><i class="fa-sharp fa-solid fa-square-plus"></i><span class="txt-grey-big">Crea Playlist</span></li>
+                    </ul>
+                    <ul class="scroll visible">
                         <li class="txt-grey-small">Nome Playlist</li>
                         <li class="txt-grey-small">Nome Playlist</li>
                         <li class="txt-grey-small">Nome Playlist</li>
@@ -35,10 +38,11 @@
                         <li class="txt-grey-small">Nome Playlist</li>
                         <li class="txt-grey-small">Nome Playlist</li>
                     </ul>
+                    
                     <div class="fisso">
                         <img src="./img/download.svg" class="simbol-grey" alt=""><span class="txt-grey visible">Installa app</span> 
                         <hr>
-                        <img src="./img/profile.svg" class="simbol-grey" alt=""><span class="txt-grey visible">John Doe</span>
+                        <img src="./img/profile.svg" class="simbol-back" alt=""><span class="txt-grey visible">John Doe</span>
                     </div>
 
 
@@ -192,7 +196,7 @@
                 <p class="txt-bold">Sinister <br><span class="grey underline">Brano Nome</span></i></p>
                 </div>
                 <div class="simbol-small">
-                    <i class="fa-regular fa-heart"></i><span><i class="fa-sharp fa-regular fa-folder"></i></span>
+                    <span><i class="fa-regular fa-heart"></i></span><span><i class="fa-sharp fa-regular fa-folder"></i></span>
                 </div>
                 
                 
@@ -200,17 +204,23 @@
             </div>
             <div class="col-40">
                 <div class="simbol-center">
+                    <span class="number">0:25</span>
                     <span><i class="fa-solid fa-shuffle"></i></span>
                     <span><i class="fa-solid fa-backward-step"></i></span>
                     <span class="play"><i class="fa-sharp fa-regular fa-circle-play"></i></span>
                     <span><i class="fa-solid fa-forward-step"></i></span>
                     <span><i class="fa-solid fa-rotate-right"></i></span>
-                    <span>0:25</span>
+                    <span class="number">4:35</span>
                     
-                    <span>4:35</span>
+                    
+                    
                     <div class="volume long">
-                        <div class="volume-play"></div>
+                        <div class="volume-play">
+                            <div class="sfera"></div>
+                        </div>
                     </div>
+                    
+                    
                     
                     
                 </div>
@@ -225,7 +235,9 @@
 
                 </div>
                 <div class="volume">
-                    <div class="volume-up"></div>
+                    <div class="volume-up">
+                        <div class="sfera up"></div>
+                    </div>
                 </div>
                 
             </div>
